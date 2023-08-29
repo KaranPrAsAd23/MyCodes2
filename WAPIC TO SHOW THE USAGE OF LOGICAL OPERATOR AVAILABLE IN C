@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a = 23, b = 4;
+
+    // AND operator
+    if (a && b) {
+        printf("a && b is true\n");
+    } else {
+        printf("a && b is false\n");
+    }
+
+    // OR operator
+    if (a || b) {
+        printf("a || b is true\n");
+    } else {
+        printf("a || b is false\n");
+    }
+
+    // NOT operator
+    if (!a) {
+        printf("!a is true\n");
+    } else {
+        printf("!a is false\n");
+    }
+
+    return 0;
+}
